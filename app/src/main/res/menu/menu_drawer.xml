@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_quiz"
+            android:icon="@drawable/quiz"
+            android:title="@string/menu_drawer_quiz" />
+    </group>
+
+    <item android:title="@string/menu_drawer_file">
+        <menu>
+            <item
+                android:id="@+id/nav_import"
+                android:icon="@drawable/ic_file_download"
+                android:title="@string/menu_drawer_import" />
+            <item
+                android:id="@+id/nav_export"
+                android:icon="@drawable/ic_file_upload"
+                android:title="@string/menu_drawer_export" />
+
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_drawer_communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_drawer_send" />
+        </menu>
+    </item>
+
+</menu>
